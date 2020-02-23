@@ -3,8 +3,9 @@ class School
   def initialize(name, roster={})
   end 
   
-  
-  
+  def school_name(name)
+    @name = name 
+  end
 end  
 
 
